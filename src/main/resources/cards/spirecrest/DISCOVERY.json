@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Затерянная деревня",
+        "type": "DISCOVERY",
+        "effect": "Получите 3 карты при входе в деревню.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Снежный лагерь",
+        "type": "DISCOVERY",
+        "effect": "Получите 2 ресурса, разместив здесь рабочего.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Foothills"
+    },
+    {
+        "name": "Ледяные пещеры",
+        "type": "DISCOVERY",
+        "effect": "Получите 1 дополнительную карту каждый раз, когда берёте ресурсы.",
+        "expansion": "Spirecrest",
+        "workers_spot": 0,
+        "placement": "restricted",
+        "imageUrl": "",
+        "group": "Foothills"
+    },
+    {
+        "name": "Заснеженная долина",
+        "type": "DISCOVERY",
+        "effect": "Получите 2 ягоды за вход в долину.",
+        "expansion": "Spirecrest",
+        "workers_spot": 2,
+        "placement": "closed",
+        "imageUrl": "",
+        "group": "Foothills"
+    },
+    {
+        "name": "Потерянные реликвии",
+        "type": "DISCOVERY",
+        "effect": "Получите 3 ресурса при входе.",
+        "expansion": "Spirecrest",
+        "workers_spot": 0,
+        "placement": "restricted",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Ледяное озеро",
+        "type": "DISCOVERY",
+        "effect": "Обменяйте 1 карту на 2 ресурса.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Foothills"
+    },
+    {
+        "name": "Замерзший водопад",
+        "type": "DISCOVERY",
+        "effect": "Получите 1 ресурс каждый раз, когда получаете карту.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "closed",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Заброшенный лагерь",
+        "type": "DISCOVERY",
+        "effect": "Обменяйте 1 ягоду на 2 карты.",
+        "expansion": "Spirecrest",
+        "workers_spot": 2,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Затерянные руины",
+        "type": "DISCOVERY",
+        "effect": "Получите 2 ресурса, когда берете рабочие места в руинах.",
+        "expansion": "Spirecrest",
+        "workers_spot": 2,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Палящее поле",
+        "type": "DISCOVERY",
+        "effect": "Игрок получает 1 ресурс за каждый ход.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "closed",
+        "imageUrl": "",
+        "group": "Peaks"
+    },
+    {
+        "name": "Секретный сад",
+        "type": "DISCOVERY",
+        "effect": "Получите 3 карты при входе в сад.",
+        "expansion": "Spirecrest",
+        "workers_spot": 0,
+        "placement": "restricted",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Руины древнего города",
+        "type": "DISCOVERY",
+        "effect": "Получите 1 дополнительный ресурс при любом обмене.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Пустынный оазис",
+        "type": "DISCOVERY",
+        "effect": "Получите 2 ягоды и 1 карту за посещение.",
+        "expansion": "Spirecrest",
+        "workers_spot": 2,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Тайная пещера",
+        "type": "DISCOVERY",
+        "effect": "Вы можете обменять 2 карты на 3 ресурса.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Туманная роща",
+        "type": "DISCOVERY",
+        "effect": "Получите 2 ресурса при посещении рощи.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "closed",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Озёрная скала",
+        "type": "DISCOVERY",
+        "effect": "Игроки не могут посещать это место.",
+        "expansion": "Spirecrest",
+        "workers_spot": 0,
+        "placement": "restricted",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Лесной обелиск",
+        "type": "DISCOVERY",
+        "effect": "Обменяйте ресурсы для получения карт.",
+        "expansion": "Spirecrest",
+        "workers_spot": 1,
+        "placement": "open",
+        "imageUrl": "",
+        "group": "Ridge"
+    },
+    {
+        "name": "Тайный грот",
+        "type": "DISCOVERY",
+        "effect": "Получите 1 ягоду за каждое посещение.",
+        "expansion": "Spirecrest",
+        "workers_spot": 2,
+        "placement": "closed",
+        "imageUrl": "",
+        "group": "Ridge"
+    }
+]

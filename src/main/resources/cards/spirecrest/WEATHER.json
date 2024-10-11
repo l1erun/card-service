@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Снежная буря",
+        "type": "WEATHER",
+        "effect": "Уменьшите количество рабочих на 1 в зимний сезон.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Winter"
+    },
+    {
+        "name": "Мороз",
+        "type": "WEATHER",
+        "effect": "Все здания требуют на 1 больше ресурса для постройки зимой.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Winter"
+    },
+    {
+        "name": "Густой туман",
+        "type": "WEATHER",
+        "effect": "Игроки не могут получать карты во время зимы.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Winter"
+    },
+    {
+        "name": "Ледяной ветер",
+        "type": "WEATHER",
+        "effect": "Каждый раз, когда игрок получает ягоды зимой, он теряет 1 ресурс.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Winter"
+    },
+    {
+        "name": "Заморозки",
+        "type": "WEATHER",
+        "effect": "Каждое производство ресурсов зимой дает только половину.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Winter"
+    },
+    {
+        "name": "Жара",
+        "type": "WEATHER",
+        "effect": "В летний сезон уменьшите производство ресурсов на 1.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Summer"
+    },
+    {
+        "name": "Зной",
+        "type": "WEATHER",
+        "effect": "Все карты существа стоят на 1 ягоду больше летом.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Summer"
+    },
+    {
+        "name": "Суховей",
+        "type": "WEATHER",
+        "effect": "В летний сезон уменьшите получение воды и смолы вдвое.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Summer"
+    },
+    {
+        "name": "Палящее солнце",
+        "type": "WEATHER",
+        "effect": "Все игроки теряют по 1 рабочему в летний сезон.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Summer"
+    },
+    {
+        "name": "Жгучий ветер",
+        "type": "WEATHER",
+        "effect": "Игроки теряют 1 ресурс каждый раз, когда получают карты в летний сезон.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Summer"
+    },
+    {
+        "name": "Туман",
+        "type": "WEATHER",
+        "effect": "Осенью все игроки получают на 1 ресурс меньше с каждого источника.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Autumn"
+    },
+    {
+        "name": "Дождь",
+        "type": "WEATHER",
+        "effect": "В осенний сезон получите на 1 меньше карт при любом наборе карт.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Autumn"
+    },
+    {
+        "name": "Буря",
+        "type": "WEATHER",
+        "effect": "Каждый раз, когда вы получаете смолу осенью, получите 1 штрафной ресурс.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Autumn"
+    },
+    {
+        "name": "Молнии",
+        "type": "WEATHER",
+        "effect": "Все здания требуют на 1 больше ресурса для постройки осенью.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Autumn"
+    },
+    {
+        "name": "Шторм",
+        "type": "WEATHER",
+        "effect": "Игроки не могут использовать рабочие на картах локаций в осенний сезон.",
+        "expansion": "Spirecrest",
+        "imageUrl": "",
+        "season": "Autumn"
+    }
+]

@@ -26,14 +26,14 @@ public class CardDataLoader {
     public void onApplicationEvent(ApplicationReadyEvent event) {
         cardRepository.deleteAll();
         if (cardRepository.count() == 0) {
-            ObjectMapper mapper = new ObjectMapper();
-            try {
-                List<Card> cards = mapper.readValue(resourceFile.getInputStream(), new TypeReference<List<Card>>() {});
-                cardRepository.saveAll(cards);
-                System.out.println("Карты успешно загружены в базу данных.");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+//            ObjectMapper mapper = new ObjectMapper();
+//            try {
+//                List<Card> cards = mapper.readValue(resourceFile.getInputStream(), new TypeReference<List<Card>>() {});
+//                cardRepository.saveAll(cards);
+//                System.out.println("Карты успешно загружены в базу данных.");
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
         }
     }
 }

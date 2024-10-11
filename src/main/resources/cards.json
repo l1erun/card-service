@@ -15,18 +15,18 @@
     "imageUrl": "http://example.com/images/farm.png"
   },
   {
-    "name": "Husband",
-    "type": "CREATURE",
-    "subtype": "COMMONER",
+    "name": "",
+    "type": "",
+    "subtype": "",
     "cost": {
-      "twigs": 0,
-      "resin": 0,
-      "pebbles": 0,
-      "berries": 2
+      "twigs": 10,
+      "resin": 10,
+      "pebbles": 10,
+      "berries": 10
     },
-    "points": 2,
+    "points": 10,
     "expansion": "Base Game",
-    "description": "Can be played for free if you have a Farm.",
-    "imageUrl": "http://example.com/images/husband.png"
+    "description": "",
+    "imageUrl": ""
   }
 ]

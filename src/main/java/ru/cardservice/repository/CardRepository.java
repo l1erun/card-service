@@ -2,7 +2,7 @@ package ru.cardservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.cardservice.entity.Card;
+import ru.cardservice.entity.baseGame.Card;
 
 import java.util.List;
 import java.util.UUID;

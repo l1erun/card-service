@@ -2,7 +2,7 @@ package ru.cardservice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.cardservice.entity.Card;
+import ru.cardservice.entity.baseGame.Card;
 import ru.cardservice.repository.CardRepository;
 
 import java.util.List;

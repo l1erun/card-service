@@ -2,7 +2,7 @@ package ru.cardservice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ru.cardservice.entity.Card;
+import ru.cardservice.entity.baseGame.Card;
 import ru.cardservice.service.CardService;
 
 import java.util.List;

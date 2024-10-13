@@ -1,7 +1,10 @@
-package ru.cardservice.entity;
+package ru.cardservice.entity.baseGame;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import ru.cardservice.entity.CardType;
+import ru.cardservice.entity.Cost;
+import ru.cardservice.entity.ExtensionName;
 
 import java.util.UUID;
 
@@ -30,7 +33,9 @@ public class Card {
 
     private int points; // Количество очков
 
-    private String expansion; // Название дополнения
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private ExtensionName expansion; // Название дополнения
 
     @Column(length = 1000)
     private String description; // Описание эффекта карты

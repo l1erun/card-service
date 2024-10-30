@@ -4,6 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 cards/
+location/
 
 ### STS ###
 .apt_generated

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Глубокий лес",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 2 ягоды и 1 карту",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Забытый ручей",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 1 смолу и 1 ягоду",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Солнечная поляна",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 2 древесины и 1 камень",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Туманная опушка",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Возьмите 2 карты",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Дикий лес",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 1 камень и 1 ягоду",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Затерянная поляна",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 2 древесины и 1 смолу",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Секретная роща",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Возьмите 1 карту и получите 1 камень",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Потайной ручей",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 2 смолы",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Шелковый пруд",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 1 ягоду и 2 карты",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Песчаный овраг",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 3 древесины",
+    "workerLimit": "single"
+  },
+  {
+    "name": "Древесная опушка",
+    "type": "Лесная",
+    "expansion": "Base Game",
+    "effect": "Получите 2 ягоды и 1 камень",
+    "workerLimit": "single"
+  }
+]

@@ -3,8 +3,10 @@ package ru.cardservice.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ru.cardservice.entity.baseGame.Card;
+import ru.cardservice.entity.event.Event;
 import ru.cardservice.entity.location.Location;
 import ru.cardservice.service.CardService;
+import ru.cardservice.service.EventsService;
 import ru.cardservice.service.LocationCardService;
 
 import java.util.List;
@@ -20,6 +22,8 @@ public class CardController {
     private CardService cardService;
     @Autowired
     private LocationCardService locationCardService;
+    @Autowired
+    private EventsService eventsService;
 
     /**
      * Получает список всех карт.
@@ -34,6 +38,10 @@ public class CardController {
         return locationCardService.getAllLocationCards();
     }
 
+    @GetMapping("/events")
+    public List<Event> getAllEventsCards() {
+        return eventsService.getAllEventsCards();
+    }
 
     /**
      * Получает карту по идентификатору.

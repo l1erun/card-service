@@ -1,0 +1,684 @@
+[
+  {
+    "type": "CONSTRUCTION",
+    "name": "трактир",
+    "image_url": "/cards/трактир.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 1,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 1,
+      "allowed_workers": "any"
+    },
+    "card_type": "красный",
+    "linked_critter_discount": "трактирщик",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "вышка",
+    "image_url": "/cards/вышка.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 1,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 2,
+    "unique": true,
+    "placement": {
+      "capacity": 1,
+      "allowed_workers": "user"
+    },
+    "card_type": "красный",
+    "linked_critter_discount": "странник",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "темница",
+    "image_url": "/cards/темница.png",
+    "cost": {
+      "twigs":0,
+      "resin": 1,
+      "pebbles": 2,
+      "berries": 0
+    },
+    "points": 0,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "синий",
+    "linked_critter_discount": "следопыт",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "суд",
+    "image_url": "/cards/суд.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 1,
+      "pebbles": 2,
+      "berries": 0
+    },
+    "points": 2,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "синий",
+    "linked_critter_discount": "судья",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "дворец",
+    "image_url": "/cards/дворец.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 3,
+      "pebbles": 3,
+      "berries": 0
+    },
+    "points": 4,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "фиолетовый",
+    "linked_critter_discount": "королева",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "лавка",
+    "image_url": "/cards/лавка.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 1,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "лавочник",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ветковозка",
+    "image_url": "/cards/ветковозка.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 0,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "веточник",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "развалины",
+    "image_url": "/cards/развалины.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 0,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "серый",
+    "linked_critter_discount": "барахольщик",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "шахта",
+    "image_url": "/cards/шахта.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 1,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "землекоп",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "замок",
+    "image_url": "/cards/замок.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 3,
+      "pebbles": 3,
+      "berries": 0
+    },
+    "points": 4,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "фиолетовый",
+    "linked_critter_discount": "король",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "почта",
+    "image_url": "/cards/почта.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 2,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 1,
+      "allowed_workers": "any"
+    },
+    "card_type": "красный",
+    "linked_critter_discount": "почтальон",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "кран",
+    "image_url": "/cards/кран.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "синий",
+    "linked_critter_discount": "архитектор",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "склад",
+    "image_url": "/cards/склад.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 1,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 1,
+      "allowed_workers": "user"
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "разчик",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "университет",
+    "image_url": "/cards/университет.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 1,
+      "pebbles": 2,
+      "berries": 0
+    },
+    "points": 3,
+    "unique": true,
+    "placement": {
+      "capacity": 1,
+      "allowed_workers": "user"
+    },
+    "card_type": "красный",
+    "linked_critter_discount": "лекарь",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "вечное дерево",
+    "image_url": "/cards/вечное дерево.png",
+    "cost": {
+      "twigs": 3,
+      "resin": 3,
+      "pebbles": 3,
+      "berries": 0
+    },
+    "points": 5,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "фиолетовый",
+    "linked_critter_discount": "любое",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "башня",
+    "image_url": "/cards/башня.png",
+    "cost": {
+      "twigs": 3,
+      "resin": 0,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 0,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "синий",
+    "linked_critter_discount": "историк",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "школа",
+    "image_url": "/cards/школа.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 2,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 2,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "фиолетовый",
+    "linked_critter_discount": "учитель",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "часовня",
+    "image_url": "/cards/часовня.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 1,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 2,
+    "unique": true,
+    "placement": {
+      "capacity": 1,
+      "allowed_workers": "user"
+    },
+    "card_type": "красный",
+    "linked_critter_discount": "пастырь",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "смоловарня",
+    "image_url": "/cards/смоловарня.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 1,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "дворник",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ярмарка",
+    "image_url": "/cards/ярмарка.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 2,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 3,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "шут",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "театр",
+    "image_url": "/cards/театр.png",
+    "cost": {
+      "twigs": 3,
+      "resin": 1,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 3,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "фиолетовый",
+    "linked_critter_discount": "бард",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "монастырь",
+    "image_url": "/cards/монастырь.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 1,
+      "pebbles": 1,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": true,
+    "placement": {
+      "capacity": 2,
+      "allowed_workers": "user"
+    },
+    "card_type": "красный",
+    "linked_critter_discount": "монах",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "кладбище",
+    "image_url": "/cards/кладбище.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 2,
+      "berries": 0
+    },
+    "points": 0,
+    "unique": true,
+    "placement": {
+      "capacity": 2,
+      "allowed_workers": "user"
+    },
+    "card_type": "красный",
+    "linked_critter_discount": "кладбище",
+    "max_count": 2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ферма",
+    "image_url": "/cards/ферма.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 1,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "муж/жена",
+    "max_count": 1,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ферма",
+    "image_url": "/cards/ферма.png",
+    "cost": {
+      "twigs": 1,
+      "resin": 1,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "муж/жена",
+    "max_count": 1,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ферма",
+    "image_url": "/cards/ферма.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 1,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "муж/жена",
+    "max_count": 1,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ферма",
+    "image_url": "/cards/ферма.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 2,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "муж/жена",
+    "max_count": 1,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ферма",
+    "image_url": "/cards/ферма.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 2,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "муж/жена",
+    "max_count": 1,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ферма",
+    "image_url": "/cards/ферма.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 1,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "муж/жена",
+    "max_count": 1,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ферма",
+    "image_url": "/cards/ферма.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 2,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "муж/жена",
+    "max_count": 1,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CONSTRUCTION",
+    "name": "ферма",
+    "image_url": "/cards/ферма.png",
+    "cost": {
+      "twigs": 2,
+      "resin": 2,
+      "pebbles": 0,
+      "berries": 0
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "муж/жена",
+    "max_count": 1,
+    "locker": false,
+    "extension": "Base Game"
+  }
+]

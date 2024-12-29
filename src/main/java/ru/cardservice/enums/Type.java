@@ -1,4 +1,4 @@
-package ru.cardservice.entity;
+package ru.cardservice.enums;
 
 import lombok.Getter;
 
@@ -6,9 +6,11 @@ import lombok.Getter;
  * Перечисление типов карт.
  */
 @Getter
-public enum CardType {
+public enum Type {
     CREATURE, // Существо
     CONSTRUCTION, // Строение
     EVENT, // Событие
-    SPECIAL_EVENT // Особое событие
+    SPECIAL_EVENT, // Особое событие
+    FOREST,
+    LOCATION
 }

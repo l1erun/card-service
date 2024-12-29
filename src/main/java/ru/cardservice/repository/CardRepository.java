@@ -2,9 +2,8 @@ package ru.cardservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.cardservice.entity.baseGame.Card;
+import ru.cardservice.entity.cards.Card;
 
-import java.util.List;
 import java.util.UUID;
 
 /**
@@ -12,7 +11,6 @@ import java.util.UUID;
  */
 @Repository
 public interface CardRepository extends JpaRepository<Card, UUID> {
-    List<Card> findByExpansion(String expansion);
 
     // Другие необходимые методы
 }

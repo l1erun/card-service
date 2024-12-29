@@ -1,4 +1,4 @@
-package ru.cardservice.entity;
+package ru.cardservice.enums;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
@@ -6,7 +6,9 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum ExtensionName {
     BASE_GAME("Base Game"),
-    spirecrest("Spirecrest");
+    FESTIVAL_GAME("Festival Game"),
+    RIVER_GAME("River Game"),
+    TRAIN_GAME("Train Game");
 
     private final String displayName;
 

@@ -1,0 +1,530 @@
+[
+  {
+    "type": "CREATURE",
+    "name": "барахольщик",
+    "image_url": "/cards/барахольщик.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "развалины",
+    "max_count": 3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "странник",
+    "image_url": "/cards/странник.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "серый",
+    "linked_critter_discount": "вышка",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "историк",
+    "image_url": "/cards/историк.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles":0 ,
+      "berries": 2
+    },
+    "points": 1,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "синий",
+    "linked_critter_discount": "башня",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "лавочник",
+    "image_url": "/cards/лавочник.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 1,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "синий",
+    "linked_critter_discount": "лавка",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "муж",
+    "image_url": "/cards/муж.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 3
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "ферма",
+    "max_count":4,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "дворник",
+    "image_url": "/cards/дворник.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 3
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "смоловарня",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "архитектор",
+    "image_url": "/cards/архитектор.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 4
+    },
+    "points": 2,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "фиолетовый",
+    "linked_critter_discount": "кран",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "король",
+    "image_url": "/cards/король.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 6
+    },
+    "points": 4,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "фиолетовый",
+    "linked_critter_discount": "замок",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "королева",
+    "image_url": "/cards/королева.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 5
+    },
+    "points": 4,
+    "unique": true,
+    "placement": {
+      "capacity": 1,
+      "allowed_workers": "any"
+    },
+    "card_type": "красный",
+    "linked_critter_discount": "дворец",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "жена",
+    "image_url": "/cards/жена.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "фиолетовый",
+    "linked_critter_discount": "ферма",
+    "max_count":4,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "учитель",
+    "image_url": "/cards/учитель.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "школа",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "трактирщик",
+    "image_url": "/cards/трактирщик.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 1
+    },
+    "points": 1,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "синий",
+    "linked_critter_discount": "трактир",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "лекарь",
+    "image_url": "/cards/лекарь.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 4
+    },
+    "points": 4,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "университет",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "землекоп",
+    "image_url": "/cards/землекоп.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 3
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "шахта",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "пастырь",
+    "image_url": "/cards/пастырь.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 3
+    },
+    "points": 1,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "серый",
+    "linked_critter_discount": "часовня",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "судья",
+    "image_url": "/cards/судья.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 3
+    },
+    "points": 2,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "синий",
+    "linked_critter_discount": "суд",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "монах",
+    "image_url": "/cards/монах.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 1
+    },
+    "points": 0,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "монастырь",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "бард",
+    "image_url": "/cards/бард.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 3
+    },
+    "points": 0,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "серый",
+    "linked_critter_discount": "театр",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "резчик",
+    "image_url": "/cards/резчик.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 2,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "склад",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "шут",
+    "image_url": "/cards/шут.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 3
+    },
+    "points": -2,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "серый",
+    "linked_critter_discount": "ярмарка",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "почтальон",
+    "image_url": "/cards/почтальон.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 0,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "серый",
+    "linked_critter_discount": "почта",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "веточник",
+    "image_url": "/cards/веточник.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 1,
+    "unique": false,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "зеленый",
+    "linked_critter_discount": "ветковозка",
+    "max_count":3,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "гробовщик",
+    "image_url": "/cards/гробовщик.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 1,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "серый",
+    "linked_critter_discount": "кладбище",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  },
+  {
+    "type": "CREATURE",
+    "name": "следопыт",
+    "image_url": "/cards/следопыт.png",
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2
+    },
+    "points": 1,
+    "unique": true,
+    "placement": {
+      "capacity": 0,
+      "allowed_workers": ""
+    },
+    "card_type": "серый",
+    "linked_critter_discount": "темница",
+    "max_count":2,
+    "locker": false,
+    "extension": "Base Game"
+  }
+]

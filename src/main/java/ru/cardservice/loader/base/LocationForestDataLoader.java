@@ -1,4 +1,4 @@
-package ru.cardservice.loader;
+package ru.cardservice.loader.base;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -8,38 +8,38 @@ import org.springframework.context.event.EventListener;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Component;
-import ru.cardservice.entity.event.Event;
-import ru.cardservice.repository.EventsRepository;
+import ru.cardservice.entity.locations.forest.ForestLocation;
+import ru.cardservice.repository.LocationForestRepository;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class EventDataLoader {
+public class LocationForestDataLoader {
     @Autowired
-    private EventsRepository eventsRepository;
+    private LocationForestRepository locationForestRepository;
 
     @Autowired
     private ResourceLoader resourceLoader; // Для динамической загрузки ресурсов
 
     private final String[] files = {
-            "classpath:event/EVENT.json"
+            "classpath:location/base/FOREST.json"
     };
 
     @EventListener
     public void onApplicationEvent(ApplicationReadyEvent event) {
-        eventsRepository.deleteAll();
-        if (eventsRepository.count() == 0) {
+        locationForestRepository.deleteAll();
+        if (locationForestRepository.count() == 0) {
             ObjectMapper mapper = new ObjectMapper();
-            List<Event> allCards = new ArrayList<>();
+            List<ForestLocation> allCardsLocation = new ArrayList<>();
 
             for (String filePath : files) {
                 try {
                     Resource resource = resourceLoader.getResource(filePath);
-                    List<Event> events = mapper.readValue(resource.getInputStream(), new TypeReference<List<Event>>() {
+                    List<ForestLocation> cards = mapper.readValue(resource.getInputStream(), new TypeReference<List<ForestLocation>>() {
                     });
-                    allCards.addAll(events);
+                    allCardsLocation.addAll(cards);
                     System.out.println("Карты из файла " + filePath + " успешно загружены.");
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -48,7 +48,7 @@ public class EventDataLoader {
             }
 
             // Сохраняем все карты в базу данных
-            eventsRepository.saveAll(allCards);
+            locationForestRepository.saveAll(allCardsLocation);
             System.out.println("Все карты успешно загружены в базу данных.");
         }
     }

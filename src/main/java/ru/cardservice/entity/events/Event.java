@@ -1,10 +1,8 @@
-package ru.cardservice.entity.event;
+package ru.cardservice.entity.events;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Data;
+import ru.cardservice.enums.ExtensionName;
 
 import java.util.UUID;
 
@@ -19,7 +17,9 @@ public class Event {
     private String type;
     private String subtype;
     private String points;
-    private String expansion;
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private ExtensionName extension; // Название дополнения
     private String description;
     private String imageUrl;
 }

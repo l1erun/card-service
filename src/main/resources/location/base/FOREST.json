@@ -1,0 +1,288 @@
+[
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 2,
+      "points" : 0,
+      "any" : 1
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "2 карты и 1 любой ресурс",
+    "imageUrl": ""
+  },
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 2
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "2 любых ресурса",
+    "imageUrl": ""
+  },
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 3
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 3,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "Сбростье 3 карты или сеньше и получите 1 любой ресурс за каждую",
+    "imageUrl": ""
+  },
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 1,
+      "berries": 0,
+      "cards" : 3,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "3 карты и 1 камушек",
+    "imageUrl": ""
+  },
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 1,
+      "resin": 1,
+      "pebbles": 0,
+      "berries": 1,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "1 ветка, 1 смола, 1 ягода",
+    "imageUrl": ""
+  },
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 2,
+      "cards" : 1,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "2 ягоды и 1 карта",
+    "imageUrl": ""
+  },
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 3,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "3 ягоды",
+    "imageUrl": ""
+  },
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 1,
+      "resin": 2,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "2 смолы 1 ветку",
+    "imageUrl": ""
+  },
+  {
+    "name": "?",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 2,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "Возьмите 2 карты с поляны и можете сыграть 1 из них, заплатив на 1 ресурс меньше",
+    "imageUrl": ""
+  },
+  {
+    "name": "?",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 1,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "Скопируйте свойство любой основной (не лесной) локации и возьмите 1 карту",
+    "imageUrl": ""
+  },
+  {
+    "name": "?",
+    "type": "FOREST",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "Сбросьте любое количество карт, затем возьмите 2 карты за каждую сброшенную",
+    "imageUrl": ""
+  }
+]

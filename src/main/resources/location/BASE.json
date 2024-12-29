@@ -1,0 +1,202 @@
+[
+  {
+    "name": "лес",
+    "type": "LOCATION",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 3,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "",
+    "imageUrl": ""
+  },
+  {
+    "name": "лес2",
+    "type": "LOCATION",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 2,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 1,
+      "points" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": false,
+    "description" : "",
+    "imageUrl": ""
+  },
+  {
+    "name": "смола",
+    "type": "LOCATION",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 2,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "",
+    "imageUrl": ""
+  },
+  {
+    "name": "смола2",
+    "type": "LOCATION",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 1,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 1,
+      "points" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": false,
+    "description" : "",
+    "imageUrl": ""
+  },
+  {
+    "name": "карты",
+    "type": "LOCATION",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 2,
+      "points" : 1
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": false,
+    "description" : "",
+    "imageUrl": ""
+  },
+  {
+    "name": "камень",
+    "type": "LOCATION",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 1,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "",
+    "imageUrl": ""
+  },
+  {
+    "name": "ягоды2",
+    "type": "LOCATION",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 1,
+      "cards" : 1,
+      "points" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "",
+    "imageUrl": ""
+  },
+  {
+    "name": "ягоды",
+    "type": "LOCATION",
+    "extension": "Base Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 1,
+      "cards" : 0,
+      "points" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": false,
+    "description" : "",
+    "imageUrl": ""
+  }
+]

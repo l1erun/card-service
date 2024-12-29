@@ -2,7 +2,7 @@ package ru.cardservice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.cardservice.entity.event.Event;
+import ru.cardservice.entity.events.Event;
 import ru.cardservice.repository.EventsRepository;
 
 import java.util.List;

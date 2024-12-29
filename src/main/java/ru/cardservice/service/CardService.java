@@ -2,7 +2,7 @@ package ru.cardservice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.cardservice.entity.baseGame.Card;
+import ru.cardservice.entity.cards.Card;
 import ru.cardservice.repository.CardRepository;
 
 import java.util.List;
@@ -34,9 +34,9 @@ public class CardService {
     /**
      * Получает карты определенного дополнения.
      */
-    public List<Card> getCardsByExpansion(String expansion) {
-        return cardRepository.findByExpansion(expansion);
-    }
+//    public List<Card> getCardsByExpansion(String expansion) {
+//        return cardRepository.findByExpansion(expansion);
+//    }
 
     /**
      * Добавляет новую карту.
@@ -52,14 +52,14 @@ public class CardService {
         Card existingCard = cardRepository.findById(cardId)
                 .orElseThrow(() -> new RuntimeException("Card not found"));
 
-        existingCard.setName(updatedCard.getName());
-        existingCard.setType(updatedCard.getType());
-        existingCard.setSubtype(updatedCard.getSubtype());
-        existingCard.setCost(updatedCard.getCost());
-        existingCard.setPoints(updatedCard.getPoints());
-        existingCard.setExpansion(updatedCard.getExpansion());
-        existingCard.setDescription(updatedCard.getDescription());
-        existingCard.setImageUrl(updatedCard.getImageUrl());
+//        existingCard.setName(updatedCard.getName());
+//        existingCard.setType(updatedCard.getType());
+//        existingCard.setSubtype(updatedCard.getSubtype());
+//        existingCard.setCost(updatedCard.getCost());
+//        existingCard.setPoints(updatedCard.getPoints());
+//        existingCard.setExpansion(updatedCard.getExpansion());
+//        existingCard.setDescription(updatedCard.getDescription());
+//        existingCard.setImageUrl(updatedCard.getImageUrl());
 
         return cardRepository.save(existingCard);
     }

@@ -1,0 +1,106 @@
+[
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Festival Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 3,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "3 смолы",
+    "imageUrl": ""
+  },
+  {
+    "name": "",
+    "type": "FOREST",
+    "extension": "Festival Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 3
+    },
+    "cost": {
+      "twigs": 3,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "Заплатите 3 веточки, затем получите 3 любых ресурса",
+    "imageUrl": ""
+  },
+  {
+    "name": "?",
+    "type": "FOREST",
+    "extension": "Festival Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "2 смолы или 2 ягоды",
+    "imageUrl": ""
+  },
+  {
+    "name": "?",
+    "type": "FOREST",
+    "extension": "Festival Game",
+    "rewards": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0,
+      "any" : 0
+    },
+    "cost": {
+      "twigs": 0,
+      "resin": 0,
+      "pebbles": 0,
+      "berries": 0,
+      "cards" : 0,
+      "points" : 0
+    },
+    "workerSlots": 1,
+    "uniq": true,
+    "description" : "Примените 2 зеленых в вашем городе",
+    "imageUrl": ""
+  }
+]

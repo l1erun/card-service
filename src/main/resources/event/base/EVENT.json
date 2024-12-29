@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Большой пир",
+    "type": "EVENT",
+    "extension": "Base Game",
+    "points": 3,
+    "description": "Получите это событие, если у вас в городе есть 2 карты типа 'Critter' и 2 карты типа 'Construction'.",
+    "imageUrl": ""
+  }
+]

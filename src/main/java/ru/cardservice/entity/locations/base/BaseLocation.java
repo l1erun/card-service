@@ -35,7 +35,6 @@ public class BaseLocation implements Serializable {
     @Column(nullable = false)
     private CostLocation cost;
 
-
     @Column(name = "worker_slots", nullable = false)
     private int workerSlots; // Количество доступных слотов для рабочих
 
